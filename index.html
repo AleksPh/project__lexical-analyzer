@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Лексичний аналізатор</title>
+</head>
+<body>
+  <div class="content">
+    <div class="content__container">
+      <p class="content__container__text">
+        Welcome
+      </p>
+      
+      <ul class="content__container__list">
+        <li class="content__container__list__item">To</li>
+        <li class="content__container__list__item">Lexical </li>
+        <li class="content__container__list__item">Analyzer</li>
+        <li class="content__container__list__item">Program</li>
+      </ul>
+    </div>
+  </div>
+  <div class="main__content">
+    <div class="main__test">
+      <button class="custom-btn btn-13 test__button" id="test1">Test 1</button>
+      <button class="custom-btn btn-13 test__button" id="test2">Test 2</button>
+      <button class="custom-btn btn-13 test__button" id="test3">Test 3</button>
+      <button class="custom-btn btn-13 test__button" id="test4">Test 4</button>
+      <button class="custom-btn btn-13 test__button" id="test5">Test 5</button>
+    </div>
+    <textarea id="codeInput" rows="10" cols="50" placeholder="Enter something here to analyze..." class="area"></textarea>
+  </div>
+  <button class="custom-btn btn-13" id="analyzeButton">Analyz</button>
+
+  <h2 class="subtitle">See your result:</h2>
+  <div id="tablesContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
